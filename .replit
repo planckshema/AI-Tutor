@@ -18,3 +18,10 @@ expertMode = true
 [postMerge]
 path = "scripts/post-merge.sh"
 timeoutMs = 20000
+
+[userenv]
+
+[userenv.shared]
+AI_BASE_URL = "https://openrouter.ai/api/v1"
+AI_MODEL = "openai/gpt-4o-mini"
+SYSTEM_PROMPT = "You are a helpful assistant."
