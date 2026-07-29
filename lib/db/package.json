@@ -5,6 +5,7 @@
   "type": "module",
   "exports": {
     ".": "./src/index.ts",
+    "./load-env": "./src/load-env.ts",
     "./schema": "./src/schema/index.ts"
   },
   "scripts": {
@@ -12,6 +13,7 @@
     "push-force": "drizzle-kit push --force --config ./drizzle.config.ts"
   },
   "dependencies": {
+    "dotenv": "^17.2.3",
     "drizzle-orm": "catalog:",
     "drizzle-zod": "^0.8.3",
     "pg": "^8.22.0",
