@@ -1,4 +1,4 @@
-modules = ["nodejs-24"]
+modules = ["nodejs-20", "vue-node-20", "web"]
 
 [deployment]
 router = "application"
@@ -25,3 +25,6 @@ timeoutMs = 20000
 AI_BASE_URL = "https://openrouter.ai/api/v1"
 AI_MODEL = "openai/gpt-4o-mini"
 SYSTEM_PROMPT = "You are a helpful assistant."
+
+[nix]
+channel = "stable-25_05"
